@@ -1,31 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-M" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechHire Hub</title>
+    <title>Inkuru Zacu - Stories & Learning</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
         darkMode: 'class',
         theme: {
           extend: {
+            fontFamily: {
+              sans: ['Nunito', 'sans-serif'],
+            },
             colors: {
               primary: {
-                DEFAULT: 'hsl(210, 90%, 50%)',
-                light: 'hsl(210, 90%, 60%)',
-                dark: 'hsl(210, 90%, 40%)',
+                DEFAULT: '#0D9488',
+                light: '#2DD4BF',
+                dark: '#042F2E',
               },
-              background: 'hsl(0, 0%, 100%)',
-              foreground: 'hsl(222.2, 84%, 4.9%)',
-              dark: {
-                background: 'hsl(222.2, 84%, 4.9%)',
-                foreground: 'hsl(210, 40%, 98%)',
+              secondary: {
+                DEFAULT: '#F97316',
+                light: '#FB923C',
+                dark: '#B45309',
+              },
+              background: {
+                light: '#F8FAFC',
+                dark: '#0F172A',
+              },
+              text: {
+                light: '#1E293B',
+                dark: '#E2E8F0',
+                muted: {
+                  light: '#64748B',
+                  dark: '#94A3B8',
+                }
               }
-            }
-          }
-        }
+            },
+          },
+        },
       }
     </script>
   <script type="importmap">
@@ -34,13 +52,14 @@
     "react/": "https://esm.sh/react@^19.1.0/",
     "react": "https://esm.sh/react@^19.1.0",
     "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-    "@google/genai": "https://esm.sh/@google/genai"
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.7.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.10.0"
   }
 }
 </script>
 <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-background dark:bg-dark-background text-foreground dark:text-dark-foreground">
+  <body>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
   </body>
