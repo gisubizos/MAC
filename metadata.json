@@ -1,0 +1,5 @@
+{
+  "name": "TechHire Hub",
+  "description": "A mobile-first web application designed to help technology-related companies test and evaluate job applicants through a comprehensive quiz engine with features like language selection, dark/light mode, and an admin panel for question management.",
+  "requestFramePermissions": []
+}
