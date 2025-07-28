@@ -1,0 +1,5 @@
+{
+  "name": "Smart Job Interview App",
+  "description": "An AI-powered app that simulates a job interview. It provides a personalized chat session to help users practice, receive feedback, and improve their interview skills for any company.",
+  "requestFramePermissions": []
+}
