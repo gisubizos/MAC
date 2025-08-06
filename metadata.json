@@ -1,6 +1,5 @@
 {
-  "name": "Inkuru Zacu",
-  "description": "A beautifully designed mobile application focused on storytelling and education in Kinyarwanda, with support for multiple languages. Explore animated stories, engage in learning modules, and even create your own stories with AI.",
-  "requestFramePermissions": [],
-  "prompt": ""
+  "name": "Quick Chat AI",
+  "description": "A fast and easy AI-powered texting app that responds to you quickly.",
+  "requestFramePermissions": []
 }
